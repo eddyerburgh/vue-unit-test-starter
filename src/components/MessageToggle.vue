@@ -1,6 +1,6 @@
 <template>
  <div>
-  <message :msg="msg"></message>
+  <p>{{msg}}</p>
   <button id="toggle-message" @click="toggleMessage">
    Change message
   </button>
@@ -8,20 +8,15 @@
 </template>
 
 <script>
-  import Message from './Message'
-
   export default {
     name: 'message-toggle',
     data: () => ({
-      msg: null
+      msg: 'default message'
     }),
     methods: {
       toggleMessage () {
         this.msg = this.msg === 'message' ? 'toggled message' : 'message'
       }
-    },
-    components: {
-      Message
     }
   }
 </script>
