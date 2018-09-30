@@ -1,6 +1,6 @@
-# vue-test-utils-jest-example
+# vue-test-utils-unit-test-starter
 
-> An example project using vue-test-utils and jest to run unit tests
+> A starter project for [How to write unit tests for Vue components](https://medium.freecodecamp.org/simple-unit-tests-with-vue-test-utils-and-jest-c384d7abc321) and [Write blazing fast Vue unit tests with Tape and Vue Test Utils](https://medium.com/p/be069ccd4acf)
 
 ## Build Setup
 
